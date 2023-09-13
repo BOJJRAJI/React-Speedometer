@@ -1,52 +1,47 @@
 .bg-container {
-  background-color: #07080c;
-  padding: 10px;
   height: 100vh;
+  background-color: #07080c;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.heading {
-  font-family: 'Roboto';
-  font-size: 30px;
-  color: #ffffff;
-  font-weight: bold;
-}
 .image {
   height: 200px;
-  width: 500px;
+  width: 200px;
 }
-.speed-counter {
-  font-family: 'Roboto';
-  font-size: 23px;
+.heading {
+  font-size: 30px;
   color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
 }
 .para {
-  font-family: 'Roboto';
-  font-size: 13px;
+  font-size: 15px;
   color: #cbd5e1;
+  font-family: 'Roboto';
 }
-.accelerate-button {
-  border-width: 0px;
+.count-heading {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.accelerate {
   background-color: #0b69ff;
   color: #ffffff;
+  border: none;
   padding: 10px;
   border-radius: 7px;
+  cursor: pointer;
+  outline: none;
 }
-.break-button {
-  border-width: 0px;
+.apply-breaks {
   background-color: transparent;
   color: #94a3b8;
   border: 1px solid #94a3b8;
   padding: 10px;
   border-radius: 7px;
-  margin-left: 10px;
-}
-
-@media screen and (max-width: 576px) {
-  .image {
-    height: 200px;
-    width: 250px;
-  }
+  cursor: pointer;
+  margin-left: 20px;
 }
